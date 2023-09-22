@@ -1,8 +1,8 @@
 #see MySecretsLocal.txt for access_key and secret_key
 provider "aws" {
   region     = "eu-west-3"
-  access_key = "AKIAQMPOQK7WRRQWDXUV"
-  secret_key = "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"
+  access_key = ""
+  secret_key = ""
 }
 
 resource "aws_vpc" "myapp-vpc" {
